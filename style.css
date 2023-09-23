@@ -1,0 +1,105 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'open sans', sans-serif;
+    background-image: url('https://source.unsplash.com/1600x900/?birthday');
+    font-size: 120%;
+}
+.glass
+{
+    padding: 50px;
+    background: linear-gradient(135deg, rgba(255,255,255, 0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(255,255,255, 0.37);
+}
+.countdown
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.hidden
+{
+    visibility: hidden;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 8px;
+    box-shadow: 0 -5px -3px black, 0 5px 3px -3px black ;
+}
+small
+{
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    text-shadow: #ddd;
+    text-decoration: underline;
+}
+button
+{
+    background-color: #000000;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    font-weight: 500;
+    margin: 10px 10px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+button:hover
+{
+    opacity: 1;
+}
+input
+{
+    background-color: black;
+    padding: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: #ffffff;
+}
+;;-webkit-calender-picker-indicator
+{
+    font-size: large;
+    background-color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+input:focus
+{
+    background-color: #ddd;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+}
+.heading
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 50px;
+}
